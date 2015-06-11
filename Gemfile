@@ -11,11 +11,9 @@ gem 'jbuilder', '~> 2.0'
 
 group :development, :test do
   gem "pry-byebug"
-  #gem "byebug"
   gem "factory_girl_rails"
   gem "hirb"
-  #gem "pry-rails"
-  gem "rspec-rails", "~> 3.2"
+  gem "rspec-rails", "3.2.1"
 end
 
 group :test do
