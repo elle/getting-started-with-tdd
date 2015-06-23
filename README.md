@@ -1,7 +1,8 @@
 # Getting Started with TDD
 ================================
 
-Check out the branch `em-solved` to see the finished solution used in this repo.
+Check out the branch `em-solved` [https://github.com/elle/getting-started-with-tdd/tree/em-solved]
+to see the finished solution used in this repo.
 
 ## Why?
 ================================
@@ -249,6 +250,7 @@ class CantWalkWithoutPets < StandardError; end
 
 * Loading Rails and bundled gems vs just relative loading the only necessary files
 * `binstubs`: https://github.com/sstephenson/rbenv/wiki/Understanding-binstubs
+  or http://mislav.uniqpath.com/2013/01/understanding-binstubs/
 
 
 ## References
@@ -265,4 +267,6 @@ class CantWalkWithoutPets < StandardError; end
 ## Special code credit
 ================================
 
-Some of the code used in this example repo was based on Destroy All Software's screencast number 10: Fast tests with and without Rails: https://www.destroyallsoftware.com/screencasts/catalog/fast-tests-with-and-without-rails
+Some of the code used in this example repo was based on Destroy All Software's
+screencast number 10: Fast tests with and without Rails:
+https://www.destroyallsoftware.com/screencasts/catalog/fast-tests-with-and-without-rails
