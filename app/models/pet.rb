@@ -1,3 +1,3 @@
-class Pet < ActiveRecord::Base
+class Pet < ApplicationRecord
   belongs_to :user
 end
