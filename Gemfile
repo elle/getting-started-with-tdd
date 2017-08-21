@@ -8,9 +8,9 @@ gem "uglifier", ">= 1.3.0"
 gem "jquery-rails"
 
 group :development, :test do
-  gem "pry-byebug"
   gem "factory_girl_rails"
   gem "hirb"
+  gem "pry-byebug"
   gem "rspec-rails", "3.6.1"
 end
 
