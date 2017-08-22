@@ -47,7 +47,8 @@ to see the finished solution used in this repo.
   - services specs
 
 ## Example Gemfile
-```
+
+```ruby
 group :development, :test do
   gem "factory_girl_rails"
   gem "hirb"
@@ -74,7 +75,7 @@ end
 
 - [Formulaic](https://github.com/thoughtbot/formulaic):
 
-```
+```ruby
 fill_form(:user, { name: "John", email: "john@example.com", "Terms of Service" => true })
 click_on submit(:user)
 ```
