@@ -73,6 +73,9 @@ end
 - [web-console](https://github.com/rails/web-console): access an IRB console on exception pages
   or by using `<% console %>` in views
 
+- [Better Errors](https://github.com/charliesome/better_errors):
+  better error page for Rack apps
+
 - [Formulaic](https://github.com/thoughtbot/formulaic):
 
 ```ruby
