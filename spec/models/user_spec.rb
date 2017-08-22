@@ -1,8 +1,8 @@
 require "rails_helper"
 
 describe User do
-  it { should have_many(:pets).dependent(:destroy) }
-  it { should validate_presence_of(:first_name) }
+  it { is_expected.to have_many(:pets).dependent(:destroy) }
+  it { is_expected.to validate_presence_of(:first_name) }
 
   describe "#full_name" do
     it "returns title cased first and last names" do
