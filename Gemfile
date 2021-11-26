@@ -10,6 +10,7 @@ group :development, :test do
   gem "hirb"
   gem "pry-byebug"
   gem "rspec-rails", "5.0.2"
+  gem "rubocop-rails"
 end
 
 group :test do
