@@ -1,4 +1,4 @@
-FactoryGirl.define do
+FactoryBot.define do
   factory :pet do
     sequence(:name) { |n| "name#{n}" }
     user
