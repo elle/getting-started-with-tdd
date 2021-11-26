@@ -50,19 +50,19 @@ to see the finished solution used in this repo.
 
 ```ruby
 group :development, :test do
-  gem "factory_girl_rails"
+  gem "factory_bot_rails"
   gem "hirb"
   gem "pry-byebug"
-  gem "rspec-rails"
+  gem "rspec-rails", "5.0.2"
 end
 
 group :test do
-  gem "capybara-webkit", ">= 1.2.0"
+  gem "capybara"
+  gem "cuprite"
   gem "database_cleaner"
   gem "launchy"
-  # gem "rails-controller-testing" # to use `assigns`and `assert_template` in
-Rails 5
-  gem "shoulda-matchers", git: "https://github.com/thoughtbot/shoulda-matchers.git", branch: "rails-5"
+  gem "rails-controller-testing"
+  gem "shoulda-matchers", "~> 4.0"
   gem "timecop"
   gem "webmock"
 end
@@ -84,7 +84,7 @@ click_on submit(:user)
 ```
 
 
-## RSpec 3.x
+## RSpec 3.x +
 
 RSpec 3.x introduces a new `rails_helper.rb` convention,
 which contains all the Rails-specific spec configuration
@@ -238,9 +238,9 @@ class CantWalkWithoutPets < StandardError; end
 - [How to learn TDD without getting overwhelmed](http://www.justinweiss.com/blog/2014/06/02/how-to-learn-tdd-without-getting-overwhelmed/)
 - [Shoulda Matchers](http://matchers.shoulda.io/)
 - [Destroy All Software](https://www.destroyallsoftware.com/screencasts)
-- Book: [Rails 4 Test Prescriptions](https://pragprog.com/book/nrtest2/rails-4-test-prescriptions)
+- Book: [Rails 5 Test Prescriptions](https://pragprog.com/titles/nrtest3/rails-5-test-prescriptions/)
+- Book: [Testing Rails](https://books.thoughtbot.com/assets/testing-rails.pdf)
 - Book: [Everyday Rails Testing with RSpec](https://leanpub.com/everydayrailsrspec)
-- Book: [Testing Rails](https://gumroad.com/l/testing-rails)
 
 ## Special code credit
 
