@@ -1,25 +1,24 @@
 source "https://rubygems.org"
 
 
-gem "rails", "5.1.3"
+gem "rails", "6.1.4.1"
 gem "sqlite3"
-gem "sass-rails", "~> 5.0"
-gem "uglifier", ">= 1.3.0"
-gem "jquery-rails"
+gem "sass-rails", ">= 6"
 
 group :development, :test do
-  gem "factory_girl_rails"
+  gem "factory_bot_rails"
   gem "hirb"
   gem "pry-byebug"
-  gem "rspec-rails", "3.6.1"
+  gem "rspec-rails", "5.0.2"
 end
 
 group :test do
-  gem "capybara-webkit", "1.14.0"
+  gem "capybara"
+  gem "cuprite"
   gem "database_cleaner"
   gem "launchy"
-  # gem "shoulda-matchers", require: false
-  gem "shoulda-matchers", git: "https://github.com/thoughtbot/shoulda-matchers.git", branch: "rails-5"
+  gem "rails-controller-testing"
+  gem "shoulda-matchers", "~> 4.0"
   gem "timecop"
   gem "webmock"
 end
